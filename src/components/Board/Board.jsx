@@ -30,7 +30,7 @@ const Board = ({ userName, cardsCount, scoreCounter, restartGame }) => {
 
   return (
     <div>
-      {isGameWon && <Result restartGame={restartGame} />}
+      {isGameWon && <Result restartGame={restartGame} userName={userName}/>}
       {isLoading ? (
         // Mostrar un indicador de carga si las imágenes aún se están cargando
         <Loader />
