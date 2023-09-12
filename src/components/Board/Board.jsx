@@ -39,8 +39,8 @@ const Board = ({ userName, cardsCount, scoreCounter, restartGame }) => {
         <div >
           <div className="d-flex justify-content-center align-item-center frosted mb-5">
             <p className="mx-3 mb-0 py-2">Nombre de usuario: {userName}</p>
-            <p className="mx-3 mb-0 py-2">Matched Pairs: {matchedPairs}</p>
-            <p className="mx-3 mb-0 py-2">Failed Attempts: {failedAttempts}</p>
+            <p className="mx-3 mb-0 py-2">Parejas Encontradas: {matchedPairs}</p>
+            <p className="mx-3 mb-0 py-2">Intentos Fallidos: {failedAttempts}</p>
           </div>
           <div className=" board">
             {/* Mapear y renderizar las cartas en el tablero */}
